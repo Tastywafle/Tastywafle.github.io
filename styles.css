@@ -15,17 +15,17 @@
     color:
     font-size: 150px;
 }
-.homebar left{
+.homebar_left {
     background-color: #000;
     color:#fff
     text-align: left;
 }
-.homebar center{
+.homebar_center {
     background-color: #000;
     color:#fff
     text-align: center;
 }
-.homebar right{
+.homebar_right {
     background-color: #000;
     color:#fff
     text-align: right;
