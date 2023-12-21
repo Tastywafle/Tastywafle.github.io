@@ -5,3 +5,8 @@
     padding: 2rem 1rem;
     text-align: center;
 }
+.hr{
+      height: 1px;
+      background-color: #ccc;
+      border: none;
+}
