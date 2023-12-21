@@ -1,12 +1,18 @@
 .header {
-    background-color: #ffffff;
-    color: #000000;
+    background-color: #000;
+    color: #fff;
     margin-bottom: 2rem;
     padding: 2rem 1rem;
     text-align: center;
+    font-size: 500px;
 }
-.hr{
-      height: 1px;
+.hr {
+      height: 3px;
       background-color: #ccc;
       border: none;
+}
+.text {
+    text-align: center;
+    color:
+    font-size: 150px;
 }
