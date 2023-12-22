@@ -9,9 +9,9 @@
     background-color: #000;
 }
 .hr {
-      height: 3px;
-      background-color: #ccc;
-      border: none;
+    height: 3px;
+    background-color: #ccc;
+    border: none;
 }
 .text {
     text-align: center;
@@ -32,4 +32,8 @@
     background-color: #000;
     color:#fff;
     text-align: right;
+}
+.button {
+    backround-color: #ADD8E6;
+    font-color: #000;
 }
