@@ -5,6 +5,9 @@
     padding: 4rem 2rem;
     text-align: center;
 }
+.header {
+    background-color: #000;
+}
 .hr {
       height: 3px;
       background-color: #ccc;
