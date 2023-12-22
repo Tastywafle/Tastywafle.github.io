@@ -33,15 +33,12 @@
     color:#fff;
     text-align: right;
 }
-.button {
-    backround-color: #ADD8E6;
-    font-color: #000;
-    text-align: center;
-}
 .center {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 50px;
+  witdh: 50pz;
   border: 3px solid green; 
+  background-color: #ADD8E6;
 }
