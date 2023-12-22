@@ -12,21 +12,21 @@
 }
 .text {
     text-align: center;
-    color:
+    color: #000;
     font-size: 150px;
 }
 .homebar_left {
     background-color: #000;
-    color:#fff
+    color:#fff;
     text-align: left;
 }
 .homebar_center {
     background-color: #000;
-    color:#fff
+    color:#fff;
     text-align: center;
 }
 .homebar_right {
     background-color: #000;
-    color:#fff
+    color:#fff;
     text-align: right;
 }
