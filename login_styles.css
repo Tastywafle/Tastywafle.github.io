@@ -21,3 +21,9 @@
     border-radius: 6px;
     background: #fff;
 }
+header{
+    font-size: 28px;
+    font-weight: 600;
+    color: #232836;
+    text-align: center;
+}
