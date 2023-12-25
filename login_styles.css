@@ -56,8 +56,10 @@ form .field{
 .form-link a{
     font-size: 14px;
     font-weight: 400;
+    color: #232836
 }
 .form a{
+    color: #0171d3;
     text-decoration: none;
 }
 .form a:hover{
