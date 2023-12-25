@@ -30,3 +30,7 @@ header{
 form{
     margin-top: 30px;
 }
+form .field{
+    height: 45px;
+    width: 100%;
+}
