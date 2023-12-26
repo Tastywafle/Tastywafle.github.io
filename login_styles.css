@@ -84,7 +84,6 @@ eye-icon{
     background-color: #d4d4d4;
 }
 .line::before{
-    content: "Or";
     postition: absolute;
     top: 50%;
     left: 50%;
