@@ -35,6 +35,7 @@ form .field{
     height: 50px;
     width: 100%;
     margin-top: 20px;
+    border-radius: 6px;
 }
 .field input,
 .field button{
@@ -86,7 +87,7 @@ form .field{
     color: #0171d3;
     text-decoration: none;
 }
-.form a:hover{
+.form-content a:hover{
     text-decoration: underline;
 }
 .line{
