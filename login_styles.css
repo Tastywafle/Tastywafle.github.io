@@ -15,10 +15,6 @@
     background-color: #4070f4;
     column-gap: 30px;
 }
-.form.signup{
-    opacity: 0;
-    pointer.events: none;
-}
 .form{
     position: absolute;
     max-width: 430px;
@@ -26,6 +22,14 @@
     padding: 30px;
     border-radius: 6px;
     background: #fff;
+}
+.form.signup{
+    opacity: 0;
+    pointer-events: none;
+}
+.forms.show-signup .form.signup{
+    opacity: 0;
+    pointer-events: auto;
 }
 header{
     font-size: 28px;
