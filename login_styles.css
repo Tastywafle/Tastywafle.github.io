@@ -46,10 +46,14 @@ form .field{
     border-radius: 6px;
 }
 .field input{
+    outline: none;
     padding: 0 15px;
     border: 1px solid #CACACA
 }
-eye-icon{
+.field input:focus{
+    border-bottom-width: 2px;
+}
+.eye-icon{
     position: absolute;
     top: 50%;
     right: 10px;
@@ -58,6 +62,15 @@ eye-icon{
     color: #8b8b8b;
     cursor: pointer;
     padding: 5px;
+}
+.field button{
+    color: #fff;
+    background-color: #0171d3;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.field button:hover{
+    background-color: #016dcb;
 }
 .form-link{
     text-align: center;
