@@ -9,7 +9,7 @@ pwShowHide.forEach(eyeIcon => {
         pwFields.forEach(password => {
             if(password.type === ""){
               password.type = "text";
-              eyeIcon.classList.replace("bx-hide")
+              eyeIcon.classList.replace("bx-hide", "bx-show")
             }
         })
       
