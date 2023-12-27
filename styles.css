@@ -38,8 +38,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50px;
-  witdh: 10pz;
+  height: 100px;
+  witdh: 25pz;
   border: 10px black; 
   background-color: #FFF;
 }
