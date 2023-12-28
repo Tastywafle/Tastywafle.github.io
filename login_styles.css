@@ -28,8 +28,12 @@
     pointer-events: none;
 }
 .forms.show-signup .form.signup{
-    opacity: 0;
+    opacity: 1;
     pointer-events: auto;
+}
+.forms.show-signup .form.login{
+    opacity: 0;
+    pointer-events: none;
 }
 header{
     font-size: 28px;
