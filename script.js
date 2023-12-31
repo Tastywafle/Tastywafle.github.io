@@ -1,4 +1,4 @@
-const notesLink= document.querySelector("#to-notes");
+notesLink= document.querySelector("#to-notes");
 
 notesLink.addEventListener('click', function(){
       window.location.href = 'Whiteboard.html';
