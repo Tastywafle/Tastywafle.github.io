@@ -1,4 +1,8 @@
-const whiteBoardLink= document.querySelector(".button")
+const notesLink= document.querySelector("#to-notes");
+
+notesLink.addEventListener('click', function(){
+      window.location.replace("Whiteboard.html");
+})
 
 const forms= document.querySelector(".forms"), 
       pwShowHide = document.querySelectorAll(".eye-icon"),
