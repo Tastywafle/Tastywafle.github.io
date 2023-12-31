@@ -1,9 +1,3 @@
-notesLink= document.querySelector("#to-notes");
-
-notesLink.addEventListener('click', () => {
-      window.location.href = 'Whiteboard.html';
-})
-
 const forms= document.querySelector(".forms"), 
       pwShowHide = document.querySelectorAll(".eye-icon"),
       links = document.querySelectorAll(".link");
