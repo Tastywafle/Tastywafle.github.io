@@ -7,11 +7,13 @@
     <link type="text/css" rel="stylesheet" href="styles.css" />
     <title>WhiteBoard</title>
     <script>
+      document.addEventListener('DOMContentLoaded', function(){
 
-      notesLink= document.querySelector("#to-notes");
+        notesLink= document.querySelector("#to-notes");
 
-      notesLink.addEventListener('click', () => {
-        window.location.href = 'Whiteboard.html';
+        notesLink.addEventListener('click', () => {
+          window.location.href = 'Whiteboard.html';
+        })
       })
       
     </script>
