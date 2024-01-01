@@ -6,6 +6,9 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+.home {
+    background-color: #4070f4;
+}
 .container{
     height: 100vh;
     width: 100%;
