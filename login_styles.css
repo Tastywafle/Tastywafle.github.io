@@ -123,18 +123,3 @@ form .field{
     color: #232836;
     padding: 0 15px;
 }
-.homebar_left {
-    background-color: #000;
-    color:#fff;
-    text-align: left;
-}
-.homebar_center {
-    background-color: #000;
-    color:#fff;
-    text-align: center;
-}
-.homebar_right {
-    background-color: #000;
-    color:#fff;
-    text-align: right;
-}
