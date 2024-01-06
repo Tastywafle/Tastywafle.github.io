@@ -52,3 +52,10 @@ links.forEach(link => {
         forms.classList.toggle("show-signup");
       })
 })
+
+
+notesLink= document.querySelector("#to-notes");
+
+notesLink.addEventListener('click', () => {
+window.location.href = 'Whiteboard.html';
+}
