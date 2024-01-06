@@ -28,10 +28,11 @@ document.getElementById("signup").addEventListener('click', function(e){
   set(ref(db, 'user/' + document.getElementById("email").value),
     {
 
-      email: document.getElementById("email").value
+      email: document.getElementById("email").value,
+      password: document.getElementById("password").value
         
-    })
-      
+    });
+     alert("Login Sucessfull !") 
 })
 
 const forms= document.querySelector(".forms"), 
