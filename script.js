@@ -25,7 +25,12 @@ const db = getDatabase(app);
 
 document.getElementById("signup").addEventListener('click', function(e){
 
-  set(ref(db, 'user/' + document.getElementById("username")))
+  set(ref(db, 'user/' + document.getElementById("email").value),
+    {
+
+      email: document.getElementById("email").value
+        
+    })
       
 })
 
