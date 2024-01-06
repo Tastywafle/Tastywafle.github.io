@@ -23,7 +23,11 @@ const analytics = getAnalytics(app);
 //get ref to database services
 const db = getDatabase(app);
 
-document.getElementById
+document.getElementById("signup").addEventListener('click', function(e){
+
+  set(ref(db, 'user/' + document.getElementById("username")))
+      
+})
 
 const forms= document.querySelector(".forms"), 
       pwShowHide = document.querySelectorAll(".eye-icon"),
