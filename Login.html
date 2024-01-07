@@ -104,7 +104,7 @@
       const db = getDatabase(app);
       
       document.getElementById("signup").addEventListener('click', function(e){
-      
+        e.preventDefault();
         set(ref(db, 'user/' + document.getElementById("email").value),
           {
       
@@ -112,7 +112,7 @@
             password: document.getElementById("password").value
               
           });
-           alert("Login Sucessfull !") 
+           alert("Login Sucessfull !"); 
         })
 
     </script>
